@@ -39,6 +39,13 @@
 		</dependency>
 	</dependencies>
 
+	<scm>
+		<connection>scm:git:git://github.com/fiji/Refresh_Javas</connection>
+		<developerConnection>scm:git:git@github.com:fiji/Refresh_Javas</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/fiji/Refresh_Javas</url>
+	</scm>
+
 	<repositories>
 		<!-- NB: for project parent, in case of partial checkout -->
 		<repository>
