@@ -3,32 +3,23 @@ package fiji.scripting.java;
 import fiji.FijiClassLoader;
 import fiji.FijiTools;
 import fiji.User_Plugins;
-
 import ij.IJ;
 import ij.ImagePlus;
 import ij.Macro;
 import ij.WindowManager;
-
 import ij.gui.GenericDialog;
-
 import ij.plugin.PlugIn;
-
 import ij.plugin.filter.PlugInFilter;
 import ij.plugin.filter.PlugInFilterRunner;
 
 import java.io.File;
 import java.io.IOException;
-
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.net.URLClassLoader;
-
 import java.util.List;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

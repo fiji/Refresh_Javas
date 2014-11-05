@@ -7,17 +7,10 @@ import fiji.build.Fake;
 import fiji.build.FakeException;
 import fiji.build.Parser;
 import fiji.build.Rule;
-
 import ij.IJ;
-import ij.ImagePlus;
 import ij.Macro;
 import ij.Menus;
-
 import ij.gui.GenericDialog;
-
-import ij.io.PluginClassLoader;
-
-import ij.text.TextWindow;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -31,12 +24,9 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.io.PrintWriter;
 import java.io.StringBufferInputStream;
-
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
-
 import java.net.MalformedURLException;
-
 import java.util.ArrayList;
 import java.util.List;
 
